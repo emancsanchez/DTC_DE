@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: cobalt-ship-447822-v8
+    schema: ny_taxi
+    tables:
+      - name: green_external_table_tripdate_2019_2020
+      - name: yellow_external_table_tripdate_2019_2020
+
